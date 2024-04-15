@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.planet-img {
+  height: 200px;
+  width: 300px;
+}
+.planet-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #f8fafc;
+  font-size: 25px;
+}
+.description {
+  color: #f1f5f9;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (min-width:768px){
+  .planet-img{
+    width: 600px;
+    height: 500px;
+  }
+  .name{
+    font-size: 40px;
+  }
+  .description{
+    font-size: 25px;
+  }
+}
